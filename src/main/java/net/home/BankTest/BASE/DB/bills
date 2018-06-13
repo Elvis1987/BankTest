@@ -1,0 +1,10 @@
+CREATE TABLE bills
+(
+  clientBillsId  INT            NULL,
+  billsId        INT AUTO_INCREMENT
+    PRIMARY KEY,
+  numberOfBills  VARCHAR(19)    NOT NULL,
+  typeOfBills    VARCHAR(15)    NOT NULL,
+  ballans        DECIMAL(10, 2) NULL,
+  expirationDate DATE           NOT NULL
+)
